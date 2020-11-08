@@ -142,6 +142,7 @@ body {
   margin-right: 70px;
 }
 .figure {
+  display: block;
   width: 370px;
 }
 .prod-name {
