@@ -78,6 +78,9 @@ body {
 .tel:focus .heder-ico-phone {
   fill: var(--acent);
 }
+.menu > .text {
+  font-weight: 500;
+}
 .button {
   font-weight: bold;
   font-size: 16px;
@@ -157,6 +160,7 @@ body {
   padding: 6px 22px;
   margin-right: 6px;
   background: var(--bg);
+  border: 0;
 }
 .part-button:focus,
 .part-button:hover {
@@ -193,9 +197,10 @@ body {
 .menu-logo {
   padding-right: 93px;
 }
+
 .motivation {
   background-color: #c4c4c4;
-  background-image: radial-gradient(circle at center, #2f303a40, #2f303a40),
+  background-image: linear-gradient(to right, #2f303a40, #2f303a40),
     url(../img/herobg.png);
   background-repeat: no-repeat;
   background-size: cover;
