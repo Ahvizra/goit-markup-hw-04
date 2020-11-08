@@ -141,6 +141,9 @@ body {
   font-style: normal;
   margin-right: 70px;
 }
+.figure {
+  width: 370px;
+}
 .prod-name {
   font-weight: bold;
   font-size: 18px;
